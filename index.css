@@ -1,0 +1,74 @@
+html {
+    font-family: monospace;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+header {
+    background-color: grey;
+    display: flex;
+}
+img {
+    width: 5rem;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+h3 {
+    margin: 0 0 1rem 0;
+}
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+}
+.search {
+    width: 50%;
+    margin: 2rem;
+    text-align: right;
+}
+.check{
+    margin: 2rem;
+    width: 50%;
+}
+#cityName {
+    text-transform: uppercase;
+    margin: 0 0 0 2rem;
+}
+.weatherWidget {
+    border: 0.2rem solid black;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.venuesWidget {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+#venues {
+    border: 0.2rem solid black;
+    width: 15%;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+#attractions {
+    margin: 2rem;
+}
+img {
+    background-color: rgb(170, 170, 170);
+}
+#icon {
+    margin: 1rem 0 0 0;
+}
+#fail {
+    text-align: center;
+}

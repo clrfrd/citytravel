@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>city travel</title>
+        <link href="./index.css" type="text/css" rel="stylesheet">
+        <script src="./main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src=./city.jpg>
+            <h1>CITY TRAVEL</h1>
+        </header>
+        <div class="searchContainer">
+            <div class="search">
+                <input type="text" id="searchBar" placeholder= "type city">
+                <button type="submit" id="searchButton">search</button>
+            </div>
+            <div class="check">
+                <div>
+                    <input type="checkbox" id="weatherCheckbox" >
+                    <label for="weatherCheckbox">only weather</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="venuesCheckbox">
+                    <label for="venuesCheckbox">only venues</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="alphaCheckbox">
+                    <label for="alphaCheckbox">venues alphabetically</label>
+                </div>
+            </div>
+        </div>
+        <div class="resultContainer">
+            <h2 id="cityName"></h2>
+            <div id="weatherResult"></div>
+            <div id="venuesResult"></div>
+        </div>
+    </body>
+</html>
