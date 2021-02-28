@@ -14,7 +14,7 @@ header {
     background-color: grey;
     display: flex;
 }
-img {
+#city {
     width: 5rem;
 }
 h1 {
@@ -67,8 +67,16 @@ img {
     background-color: rgb(170, 170, 170);
 }
 #icon {
+    width: 3rem;
     margin: 1rem 0 0 0;
 }
+#iconWeather {
+    width: 3rem;
+    margin: 1rem 0 1rem 0;
+}
 #fail {
+    text-transform: none;
     text-align: center;
+    font-size: 1rem;
+    margin: 2rem;
 }
